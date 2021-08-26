@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J0SwiuwvD7mZF7tQKPagowlg6WuUs6OJWm70lIkuyMyPw2kaapR1k9FbDl+JGWCoRzGU6rmemomuFwNPzSyHxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\M.Hosseinkhani\\source\\repos\\Exercise_01\\AuthorizationCodeFlow\\AuthorizationCodeFlow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\M.Hosseinkhani\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

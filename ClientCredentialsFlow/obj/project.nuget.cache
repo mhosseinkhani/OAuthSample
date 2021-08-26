@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RQQgA+I0kQFh1yv9pL1V932F1bG1k4wfriAco+3/K/O5rJOeCL67twJrmGSwFcBUlxhErsFe8ZkLxyhaI3FylA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\M.Hosseinkhani\\source\\repos\\Exercise_01\\ClientCredentialsFlow\\ClientCredentialsFlow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\M.Hosseinkhani\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\M.Hosseinkhani\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
+    "C:\\Users\\M.Hosseinkhani\\.nuget\\packages\\restsharp.serializers.newtonsoftjson\\106.12.0\\restsharp.serializers.newtonsoftjson.106.12.0.nupkg.sha512",
+    "C:\\Users\\M.Hosseinkhani\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
