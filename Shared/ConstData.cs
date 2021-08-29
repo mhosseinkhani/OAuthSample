@@ -4,7 +4,8 @@ namespace Shared
 {
     public class ConstData
     {
-        public const string AuthorizationCodeFlowClient = nameof(AuthorizationCodeFlowClient);
+        public const string AuthorizationCodeFlowClientId = nameof(AuthorizationCodeFlowClientId);
+        public const string AuthorizationCodeFlowClientSecret = nameof(AuthorizationCodeFlowClientSecret);
         
         
         public const string AuthorizationClientCredentialsFlowId = nameof(AuthorizationClientCredentialsFlowId);

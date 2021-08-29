@@ -28,19 +28,21 @@ namespace AuthorizationServer
             {
                 new Client
                 {
-                    ClientId=ConstData.AuthorizationCodeFlowClient,
-                    ClientSecrets={new Secret(ConstData.AuthorizationCodeFlowClient.Sha256()) },
+                    ClientId=ConstData.AuthorizationCodeFlowClientId,
+                    ClientSecrets={new Secret(ConstData.AuthorizationCodeFlowClientSecret.Sha256()) },
                     AllowedGrantTypes=GrantTypes.Code,
                     RedirectUris={ "https://localhost:5010" },
                     PostLogoutRedirectUris={ "https://localhost:5010/logout-callback" },
                     AllowedScopes=new List<string>
                     {
-                        IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile,
-                        IdentityServerConstants.StandardScopes.Email,
+                      //  IdentityServerConstants.StandardScopes.OpenId,
+                        //IdentityServerConstants.StandardScopes.Profile,
+                        //IdentityServerConstants.StandardScopes.Email,
                         "read-homework"
                     },
                     RequireConsent=true,
+                    RequirePkce = false,
+
                 },
                 new Client
                 {

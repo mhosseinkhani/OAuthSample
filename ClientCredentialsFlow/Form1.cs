@@ -19,7 +19,6 @@ namespace ClientCredentialsFlow
         private void btnGetHomework_Click(object sender, EventArgs e)
         {
            var token= this.GetToken();
-            var homework=GetHomework(token);
             
         }
 
@@ -43,15 +42,7 @@ namespace ClientCredentialsFlow
             return respone.Data;
         }
 
-        private List<Homework> GetHomework(TokenResponse token)
-        {
-            var client = new RestClient($"https://localhost:5005/api/homework/all");
-            client.UseNewtonsoftJson();
-            var request = new RestRequest(Method.GET);
-            request.AddHeader("Authorization", $"{token.TokenType} {token.AccessToken}");
-            var homeworks = client.Execute<List<Homework>>(request);
-            return homeworks.Data;
-        }
+        
     
     
     }
